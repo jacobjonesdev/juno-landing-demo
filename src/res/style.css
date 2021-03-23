@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+.rootDiv {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    background-size:cover;
+    padding:50px;
+    height:100%;
+}
+
+.horizontalDiv {
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    align-items: center;
+}
+
+.getAppDiv {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    width:350px;
+}
+
+.headerButton {
+    width:150px;
+    height:90px;
+    color:white;
+    background-color:transparent;
+    border-color:transparent;
+    font-size:20pt;
+    font-family: 'Baloo Tammudu 2';
+    border-radius:5px
+}
+
+.button {
+    padding:10px;
+    width:350px;
+    height:70px;
+    font-size:20pt;
+    border-radius:10px;
+    font-family: 'Baloo Tammudu 2';
+    border-color:transparent;
+}
+
+.appButton {
+    width:50px;
+    height:50px;
+    color:white;
+    background-color:transparent;
+    border-color:transparent;
+    font-size:20pt;
+}
+
+.headerText {
+    color:white;
+    text-align:center;
+    font-size:100pt;
+    text-shadow: 2px 2px 2px black;
+}
+
+.text {
+    font-family: 'Baloo Tammudu 2';
+    line-height: 1em;
+}
+
+.container {
+    position: relative;
+    margin: 30px;
+  }
+  
+.box {
+    height:100%;
+    position: absolute;
+}
+  
+.overlay {
+    height:100%;
+    margin-left:50%;
+    margin-top:50%;
+}
+
+.stackedImage {
+    border-radius: 20px;
+    border: 20px solid white;
+    width: 400px;
+    height: 540px;
+    object-fit:none;
+}
+
+.partner {
+    filter: grayscale(100%);
+    opacity: 0.5;
+    height: 60px;    
+}
